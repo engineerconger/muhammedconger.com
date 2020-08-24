@@ -1,0 +1,81 @@
+/*
+
+    MUHAMMED CONGER 2020 | TUM HAKLARI SAKLIDIR ©
+
+    ILETISIM: "info@muhammedconger.com"
+
+    VERSION: 0.2 | 25.08.2020
+
+*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(0, 0, 0) !important;
+    position: relative;
+}
+
+.containerAnasayfa {
+    background-image:
+        linear-gradient(to left bottom,
+            rgba(0, 0, 0, 0.8),
+            rgba(218, 37, 80, 0.09)),
+        url(img/background.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: hue;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+
+.heading {
+    text-transform: uppercase;
+    color: whitesmoke;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    line-height: 200%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.heading-main {
+    display: block;
+    font-size: 24px;
+    letter-spacing: 24px;
+}
+
+.heading-sub {
+    display: block;
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.icerik {
+    padding-bottom: 400px; padding-top: 400px;
+}
+
+#hakkimda {
+    background-image: url(img/background_vertical_2880x1800.png);
+    background-size: auto;
+    background-position: -40% 5%;
+    color: azure;
+}
+
+#projelerim {
+    background-color: #7F848E;
+    color: #010a1c;
+}
+
+#iletisim {
+    background-color: #c997c0;
+    color: #350b1f;
+}
